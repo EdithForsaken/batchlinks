@@ -123,13 +123,14 @@ supportedlinks = [
     "https://pixeldrain.com",
     "https://www.mediafire.com/file",
     "https://anonfiles.com",
+    "https://prompthero.com/ai-models",
     "https://www.dropbox.com/s"
 ]
 
-modelpath = os.path.join(script_path, "models/Stable-diffusion")
+modelpath = os.path.join(script_path, "models/Stable-diffusion/tmp_models")
 embedpath = os.path.join(script_path, "embeddings")
 vaepath = os.path.join(script_path, "models/VAE")
-lorapath = os.path.join(script_path, "models/Lora")
+lorapath = os.path.join(script_path, "models/Loratmp_Lora")
 addnetlorapath = os.path.join(script_path, "extensions/sd-webui-additional-networks/models/lora")
 hynetpath = os.path.join(script_path, "models/hypernetworks")
 aestheticembedpath = os.path.join(script_path, "extensions/stable-diffusion-webui-aesthetic-gradients/aesthetic_embeddings")
